@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	signed int n;
+	long int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
